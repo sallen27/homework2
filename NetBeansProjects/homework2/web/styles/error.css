@@ -1,0 +1,42 @@
+/*Copyright © 2016 Sarah Allen and Breslin Wiley*/
+
+body{
+  font-family: sans-serif;
+}
+
+div {
+  border: solid darkblue 2px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+  h1{
+    color: darkblue;
+    font-size: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+  }
+  
+  p {
+    padding-left: 4em;
+  }
+  
+
+  
+  #footer {
+    padding-left: 0;
+    border-top: solid darkblue 2px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
+    margin-right: 10em;
+    width: 100%;
+  }
+
+@media only screen and (max-width: 400px){
+  div {
+    width: 80%;
+  }
+}

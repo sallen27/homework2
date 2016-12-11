@@ -1,0 +1,91 @@
+/*Copyright © 2016 Sarah Allen and Breslin Wiley*/
+
+body{
+  font-family: sans-serif;
+}
+
+div {
+  border: solid darkblue 2px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#footer{
+  border-top: solid darkblue 2px;
+}
+
+footer {
+  border-top: solid darkblue 2px;;
+}
+
+form {
+  margin-right: 7em;
+  text-align: right;
+}
+
+form input {
+  width: 50%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+form label {
+  padding-right: 3%;
+}
+
+#submit {
+  background-color: lightgrey;
+  border: 1px solid black;
+  height: 2em;
+  margin-right: 9.4em;
+  width: 10em;
+}
+
+#finalForm {
+  border: none;
+
+}
+  
+#finalForm label {
+  text-align: right;
+}
+
+  h1{
+    color: darkblue;
+    font-size: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+  }
+  
+
+    
+  #footer {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: solid darkblue 2px;
+    border-width: 100%;
+    margin-left: 0;
+    width: 100%
+  }
+
+@media only screen and (max-width: 400px){
+  div {
+    width: 80%;
+  }
+  form{
+    font-size: 75%;
+    margin-right: 0;
+    padding-left: 5.5em;
+    text-align: left;
+  }
+  
+  form input{
+    height: 2em;
+    width: 67%;
+  }
+  
+  #submit {
+    width: 6em;
+  }
+}
